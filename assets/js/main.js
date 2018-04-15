@@ -95,6 +95,41 @@
             }
         });
 
+        /*----------------------------
+        current sponsers  Activation
+        ------------------------------ */
+
+        $(".current-sponsors").owlCarousel({
+            items: 3,
+            center : true,
+            margin: 100,
+            loop: true,
+            dots: false,
+            nav: true,
+            slideSpeed: 2000,
+            autoplay: 0,
+            navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                480: {
+                    items: 1
+                },
+
+                768: {
+                    items: 3
+                },
+
+                800: {
+                    items: 3
+                },
+
+                1024: {
+                    items: 3
+                }
+            }
+        });
 
 
         /*----------------------------
