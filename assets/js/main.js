@@ -100,10 +100,12 @@
         ------------------------------ */
 
         $(".current-sponsors").owlCarousel({
-            items: 3,
-            center : true,
+            items: 2,
+            // center : true,
             margin: 100,
-            loop: true,
+            stagePadding : 200 ,
+            autoHeight : true ,
+            loop: false,
             dots: false,
             nav: true,
             slideSpeed: 2000,
@@ -111,22 +113,27 @@
             navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
             responsive: {
                 0: {
-                    items: 1
+                    items: 1,
+                    stagePadding : 10 ,
                 },
                 480: {
-                    items: 1
+                    items: 1,
+                    stagePadding : 10 ,
                 },
 
                 768: {
-                    items: 3
+                    items: 2,
+                    stagePadding : 50 ,
                 },
 
                 800: {
-                    items: 3
+                    items: 2,
+                    stagePadding : 100 ,
                 },
 
                 1024: {
-                    items: 3
+                    items: 2 ,
+                    stagePadding : 150 ,
                 }
             }
         });
