@@ -95,49 +95,6 @@
             }
         });
 
-        /*----------------------------
-        current sponsers  Activation
-        ------------------------------ */
-
-        $(".current-sponsors").owlCarousel({
-            items: 2,
-            // center : true,
-            margin: 100,
-            stagePadding : 200 ,
-            autoHeight : true ,
-            loop: false,
-            dots: false,
-            nav: true,
-            slideSpeed: 2000,
-            autoplay: 0,
-            navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
-            responsive: {
-                0: {
-                    items: 1,
-                    stagePadding : 10 ,
-                },
-                480: {
-                    items: 1,
-                    stagePadding : 10 ,
-                },
-
-                768: {
-                    items: 2,
-                    stagePadding : 50 ,
-                },
-
-                800: {
-                    items: 2,
-                    stagePadding : 100 ,
-                },
-
-                1024: {
-                    items: 2 ,
-                    stagePadding : 150 ,
-                }
-            }
-        });
-
 
         /*----------------------------
             testimonial  Activation
